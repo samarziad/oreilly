@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <packages>
+    <package name="oreilly.testcases"/>
+  </packages>
+  <test thread-count="5" name="testcases(failed)">
+    <classes>
+      <class name="oreilly.testcases.LoginPageTest">
+        <methods>
+          <include name="LoginApp"/>
+        </methods>
+      </class> <!-- oreilly.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- testcases(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
